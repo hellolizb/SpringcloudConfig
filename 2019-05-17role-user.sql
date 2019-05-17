@@ -1,0 +1,26 @@
+/*
+SQLyog 企业版 - MySQL GUI v8.14 
+MySQL - 5.5.5-10.0.10-MariaDB-V2.0R131D001-20160907-1111 : Database - channeldb
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`channeldb` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+USE `channeldb`;
+
+/*Data for the table `prp_platform_role` */
+
+insert  into `prp_platform_role`(`role_code`,`role_name`,`role_desc`,`role_status`,`menu_codes`,`agent_code`,`dept_code`,`create_date`,`create_code`,`update_date`,`update_code`,`plat_id`) values (1,'超级管理员','超级管理员','1','001001,001002,001003,001004,001005,001006,001007,001008,001,002001,002002,002003,002,003001,003002,003,004001,004002,004,008004,008003,008002,008001,008,009001,009,0','data_platform',NULL,'2018-06-01 18:45:03','DA000001','2018-06-01 18:45:03','DA000001','1'),(2,'内勤管理员','内勤管理员','1','002001,002002,002003,002,003001,003002,003,004001,004002,004,008001,008002,008003,008004,008,0','data_platform',NULL,'2018-06-01 18:45:03','DA000001','2018-06-01 18:45:03','DA000001','1'),(3,'普通用户','普通用户','1','','data_platform',NULL,'2018-06-01 18:45:03','DA000001','2018-06-01 18:45:03','DA000001','1'),(5,'测试','说明测试','1','002001,002002,002003,002,003001,003002,003,008001,008002,008003,008004,008','DA000001','D1090490342','2018-11-06 18:59:03','33','2018-11-06 19:11:17','33','4');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
