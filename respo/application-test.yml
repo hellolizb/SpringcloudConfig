@@ -1,0 +1,3 @@
+spring:
+  application: 
+    name: microservice_config_server_test_3344
