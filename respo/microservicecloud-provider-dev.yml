@@ -10,7 +10,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB01
+    url: jdbc:mysql://127.0.0.1:3306/cloudDB01
     username: root
     password: root
     dbcp2:
@@ -22,7 +22,7 @@ eureka:
   client:
     service-url:
       #defaultZone: http://localhost:7001/eureka/
-       defaultZone: http://eureka7001.com:7001/eureka/
+       defaultZone: http://127.0.0.1:7001/eureka/
   instance:
     instance-id: microservicespringcloud_dept8001
     prefer-ip-address: true
